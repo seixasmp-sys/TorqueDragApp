@@ -1,0 +1,140 @@
+{
+  "M1": {
+    "equation": "μ_1+A*(μ_2-μ_1)*(1-x_i)/x_i",
+    "x_min": "A/(1+A)",
+    "x_max": "1.0",
+    "integration_type": "option1",
+    "integration_limits": [
+      "1",
+      "x_i"
+    ],
+    "date": "08/06/2026 11:32",
+    "force_direction": "opposite"
+  },
+  "M1 mod": {
+    "equation": "μ_1+A*(μ_2-μ_1)*(1-x_i)/x_i",
+    "x_min": "A/(1+A)",
+    "x_max": "1.0",
+    "integration_type": "option2",
+    "integration_limits": [
+      "1"
+    ],
+    "force_direction": "opposite",
+    "date": "09/06/2026 16:20"
+  },
+  "M2": {
+    "equation": "μ_1+(μ_2-μ_1)*(1-x_i)^2",
+    "x_min": "0",
+    "x_max": "1",
+    "integration_type": "option2",
+    "integration_limits": [
+      "1"
+    ],
+    "force_direction": "opposite",
+    "date": "10/06/2026 13:04"
+  },
+  "M2 Mod": {
+    "equation": "μ_1+(μ_2-μ_1)*(1-x_i)^2",
+    "x_min": "A/(1+A)",
+    "x_max": "1",
+    "integration_type": "option1",
+    "integration_limits": [
+      "1",
+      "x_i"
+    ],
+    "force_direction": "opposite",
+    "date": "10/06/2026 13:05"
+  },
+  "M3": {
+    "equation": "μ_1+μ_2*(1-x_i)^2",
+    "x_min": "0",
+    "x_max": "1",
+    "integration_type": "option2",
+    "integration_limits": [
+      "1"
+    ],
+    "force_direction": "opposite",
+    "date": "10/06/2026 13:02"
+  },
+  "M3 Mod": {
+    "equation": "μ_1+μ_2*(1-x_i)^2",
+    "x_min": "A/(1+A)",
+    "x_max": "1",
+    "integration_type": "option1",
+    "integration_limits": [
+      "1",
+      "x_i"
+    ],
+    "force_direction": "opposite",
+    "date": "10/06/2026 13:02"
+  },
+  "M4": {
+    "equation": "μ_1+μ_2*(1-x_i)",
+    "x_min": "0",
+    "x_max": "1.0",
+    "integration_type": "option2",
+    "integration_limits": [
+      "1"
+    ],
+    "force_direction": "opposite",
+    "date": "10/06/2026 13:01"
+  },
+  "M4 Mod": {
+    "equation": "μ_1+μ_2*(1-x_i)",
+    "x_min": "A/(1+A)",
+    "x_max": "1.0",
+    "integration_type": "option1",
+    "integration_limits": [
+      "1",
+      "x_i"
+    ],
+    "force_direction": "opposite",
+    "date": "10/06/2026 12:59"
+  },
+  "M5": {
+    "equation": "μ_1*x_i+μ_2*(1-x_i)",
+    "x_min": "A/(1+A)",
+    "x_max": "1.0",
+    "integration_type": "option1",
+    "integration_limits": [
+      "1",
+      "x_i"
+    ],
+    "date": "08/06/2026 11:25",
+    "force_direction": "opposite"
+  },
+  "M5 Mod": {
+    "equation": "μ_1*x_i+μ_2*(1-x_i)",
+    "x_min": "0",
+    "x_max": "1.0",
+    "integration_type": "option2",
+    "integration_limits": [
+      "1"
+    ],
+    "date": "08/06/2026 10:56",
+    "force_direction": "opposite"
+  },
+  "M6": {
+    "equation": "μ_1*x_i+μ_2*(1-x_i)^2",
+    "x_min": "A/(1+A)",
+    "x_max": "1.0",
+    "integration_type": "option1",
+    "integration_limits": [
+      "1",
+      "x_i"
+    ],
+    "date": "08/06/2026 11:25",
+    "force_direction": "opposite"
+  },
+  "M6 Mod": {
+    "equation": "μ_1*x_i+μ_2*(1-x_i)^2",
+    "x_min": "0",
+    "x_max": "1.0",
+    "integration_type": "option2",
+    "integration_limits": [
+      "1"
+    ],
+    "date": "08/06/2026 10:58",
+    "force_direction": "opposite"
+  }
+}

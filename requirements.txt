@@ -1,4 +1,12 @@
 streamlit
 numpy
-matplotlib
 pandas
+plotly
+sympy
+reportlab
+matplotlib
+pillow
+scipy
+openpyxl
+
+xlrd

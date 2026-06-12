@@ -1,0 +1,282 @@
+{
+  "analysis_20260611_165545_639275": {
+    "analysis_id": "analysis_20260611_165545_639275",
+    "analysis_signature": "258cf33e343f6e007c43e813a1d2ab2deb0048346f4222369ff0ef24bd826d03",
+    "campaign_id": "campaign_20260611_144039_485728",
+    "campaign_snapshot": {
+      "campaign_id": "campaign_20260611_144039_485728",
+      "name": "Test",
+      "rho_f_ppg": 9.0,
+      "rho_p_kgm3": 7700.0,
+      "w_pp_Nm": 300.0,
+      "OD_in": 3.0,
+      "ID_in": 6.0,
+      "L_ft": 10.0,
+      "date": "11/06/2026 16:00"
+    },
+    "experiment_id": "experiment_20260611_152737_804192",
+    "experiment_snapshot": {
+      "experiment_id": "experiment_20260611_152737_804192",
+      "campaign_id": "campaign_20260611_144039_485728",
+      "name": "Exp 2",
+      "BH_in": 0.2,
+      "bh": 0.15,
+      "cs": 0.5,
+      "v_ft_s": 0.2,
+      "A": 0.013825397082499604,
+      "Ac_in2": 0.28917989302521363,
+      "Aw_in2": 21.205750411731103,
+      "A_case": "0 <= BH <= R2 - R1",
+      "w_bp_Nm": 257.9829410766234,
+      "experimental_data": [
+        {
+          "x_ft": 10.0,
+          "FD_N": 0.0
+        },
+        {
+          "x_ft": 8.0,
+          "FD_N": 20.0
+        },
+        {
+          "x_ft": 6.0,
+          "FD_N": 30.0
+        },
+        {
+          "x_ft": 4.0,
+          "FD_N": 50.0
+        },
+        {
+          "x_ft": 2.0,
+          "FD_N": 60.0
+        }
+      ],
+      "date": "11/06/2026 16:54"
+    },
+    "fit_method": "bounded linear least squares + least_squares/global refinement",
+    "results": [
+      {
+        "model_name": "M1",
+        "model_snapshot": {
+          "equation": "μ_1+A*(μ_2-μ_1)*(1-x_i)/x_i",
+          "x_min": "A/(1+A)",
+          "x_max": "1.0",
+          "integration_type": "option1",
+          "integration_limits": [
+            "1",
+            "x_i"
+          ],
+          "date": "08/06/2026 11:32",
+          "force_direction": "opposite"
+        },
+        "mu1": 0.10066329643973244,
+        "mu2": 1.0000000004892714e-08,
+        "R2": 0.9850652022775943,
+        "R2_raw": 0.9850652022775943,
+        "RMSE": 0.003318762250839302,
+        "success": true,
+        "message": "`gtol` termination condition is satisfied.",
+        "method": "least_squares refinement",
+        "n_points_total": 5,
+        "n_points_used": 5,
+        "x_valid_min": 0.013636862049703189,
+        "x_valid_max": 1.0,
+        "cost": 2.753545719398987e-05
+      },
+      {
+        "model_name": "M2",
+        "model_snapshot": {
+          "equation": "μ_1+(μ_2-μ_1)*(1-x_i)^2",
+          "x_min": "0",
+          "x_max": "1",
+          "integration_type": "option2",
+          "integration_limits": [
+            "1"
+          ],
+          "force_direction": "opposite",
+          "date": "10/06/2026 13:04"
+        },
+        "mu1": 0.1097239597023932,
+        "mu2": 0.04549530123863902,
+        "R2": 0.9895888711678186,
+        "R2_raw": 0.9895888711678186,
+        "RMSE": 0.00277092888232227,
+        "success": true,
+        "message": "`gtol` termination condition is satisfied.",
+        "method": "least_squares refinement",
+        "n_points_total": 5,
+        "n_points_used": 5,
+        "x_valid_min": 0.0,
+        "x_valid_max": 1.0,
+        "cost": 1.9195117177219366e-05
+      },
+      {
+        "model_name": "M3",
+        "model_snapshot": {
+          "equation": "μ_1+μ_2*(1-x_i)^2",
+          "x_min": "0",
+          "x_max": "1",
+          "integration_type": "option2",
+          "integration_limits": [
+            "1"
+          ],
+          "force_direction": "opposite",
+          "date": "10/06/2026 13:02"
+        },
+        "mu1": 0.09961864919540032,
+        "mu2": 1.0000000364246032e-08,
+        "R2": 0.9839181268891725,
+        "R2_raw": 0.9839181268891725,
+        "RMSE": 0.003443854421615394,
+        "success": true,
+        "message": "`gtol` termination condition is satisfied.",
+        "method": "least_squares refinement",
+        "n_points_total": 5,
+        "n_points_used": 5,
+        "x_valid_min": 0.0,
+        "x_valid_max": 1.0,
+        "cost": 2.9650333193199748e-05
+      }
+    ],
+    "date": "11/06/2026 16:55"
+  },
+  "analysis_20260611_165551_724451": {
+    "analysis_id": "analysis_20260611_165551_724451",
+    "analysis_signature": "97e6e1c2b8bdef9e3a0908f7fb247e9b3ef1db843ff0d9e369e522f9dd5d6acd",
+    "campaign_id": "campaign_20260611_144039_485728",
+    "campaign_snapshot": {
+      "campaign_id": "campaign_20260611_144039_485728",
+      "name": "Test",
+      "rho_f_ppg": 9.0,
+      "rho_p_kgm3": 7700.0,
+      "w_pp_Nm": 300.0,
+      "OD_in": 3.0,
+      "ID_in": 6.0,
+      "L_ft": 10.0,
+      "date": "11/06/2026 16:00"
+    },
+    "experiment_id": "experiment_20260611_162449_456896",
+    "experiment_snapshot": {
+      "experiment_id": "experiment_20260611_162449_456896",
+      "campaign_id": "campaign_20260611_144039_485728",
+      "name": "Exp 1",
+      "BH_in": 0.5,
+      "bh": 0.25,
+      "cs": 0.5,
+      "v_ft_s": 0.2,
+      "A": 0.05604425511414792,
+      "Ac_in2": 1.1253889031701085,
+      "Aw_in2": 21.205750411731103,
+      "A_case": "0 <= BH <= R2 - R1",
+      "w_bp_Nm": 257.9829410766234,
+      "experimental_data": [
+        {
+          "x_ft": 10.0,
+          "FD_N": 0.0
+        },
+        {
+          "x_ft": 8.0,
+          "FD_N": 40.0
+        },
+        {
+          "x_ft": 6.0,
+          "FD_N": 60.0
+        },
+        {
+          "x_ft": 4.0,
+          "FD_N": 85.0
+        },
+        {
+          "x_ft": 2.0,
+          "FD_N": 100.0
+        }
+      ],
+      "date": "11/06/2026 16:55"
+    },
+    "fit_method": "bounded linear least squares + least_squares/global refinement",
+    "results": [
+      {
+        "model_name": "M1",
+        "model_snapshot": {
+          "equation": "μ_1+A*(μ_2-μ_1)*(1-x_i)/x_i",
+          "x_min": "A/(1+A)",
+          "x_max": "1.0",
+          "integration_type": "option1",
+          "integration_limits": [
+            "1",
+            "x_i"
+          ],
+          "date": "08/06/2026 11:32",
+          "force_direction": "opposite"
+        },
+        "mu1": 0.1804657602166917,
+        "mu2": 1.0000000010997504e-08,
+        "R2": 0.9656748172439138,
+        "R2_raw": 0.9656748172439138,
+        "RMSE": 0.008283420572914164,
+        "success": true,
+        "message": "`ftol` termination condition is satisfied.",
+        "method": "least_squares refinement",
+        "n_points_total": 5,
+        "n_points_used": 5,
+        "x_valid_min": 0.05306998721193752,
+        "x_valid_max": 1.0,
+        "cost": 0.00017153764096944403
+      },
+      {
+        "model_name": "M2",
+        "model_snapshot": {
+          "equation": "μ_1+(μ_2-μ_1)*(1-x_i)^2",
+          "x_min": "0",
+          "x_max": "1",
+          "integration_type": "option2",
+          "integration_limits": [
+            "1"
+          ],
+          "force_direction": "opposite",
+          "date": "10/06/2026 13:04"
+        },
+        "mu1": 0.20537385418783777,
+        "mu2": 1.00000000397825e-08,
+        "R2": 0.9886414578703786,
+        "R2_raw": 0.9886414578703786,
+        "RMSE": 0.004765018375736121,
+        "success": true,
+        "message": "`gtol` termination condition is satisfied.",
+        "method": "least_squares refinement",
+        "n_points_total": 5,
+        "n_points_used": 5,
+        "x_valid_min": 0.0,
+        "x_valid_max": 1.0,
+        "cost": 5.6763500302757256e-05
+      },
+      {
+        "model_name": "M3",
+        "model_snapshot": {
+          "equation": "μ_1+μ_2*(1-x_i)^2",
+          "x_min": "0",
+          "x_max": "1",
+          "integration_type": "option2",
+          "integration_limits": [
+            "1"
+          ],
+          "force_direction": "opposite",
+          "date": "10/06/2026 13:02"
+        },
+        "mu1": 0.17274297797167787,
+        "mu2": 1.0000000088197233e-08,
+        "R2": 0.9540183359990899,
+        "R2_raw": 0.9540183359990899,
+        "RMSE": 0.009587284717773661,
+        "success": true,
+        "message": "`ftol` termination condition is satisfied.",
+        "method": "least_squares refinement",
+        "n_points_total": 5,
+        "n_points_used": 5,
+        "x_valid_min": 0.0,
+        "x_valid_max": 1.0,
+        "cost": 0.00022979007064914098
+      }
+    ],
+    "date": "11/06/2026 16:55"
+  }
+}
